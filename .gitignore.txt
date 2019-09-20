@@ -1,0 +1,42 @@
+# Python utility and package files
+*.pyc
+*/__pycache__/*
+MANIFEST
+build/*
+dist/*
+
+# LaTeX utility files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.pdfsync
+*.synctex.gz
+*.toc
+*.swp
+*.asv
+*.nav
+*.snm
+*.gz
+*.bib.bak
+*.fls
+*.m~
+
+# Sublime text files
+*.sublime*
+
+# Mac utility files
+.DS_Store
+
+# Jupyter notebook utility files
+*.ipynb_checkpoints*
+
+# Other files that I don't remember why we have
+*.cache*

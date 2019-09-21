@@ -43,7 +43,7 @@ def get_MUc(c, gamma):
     This function is a very simple function. It takes as arguments a
     consumption level c and a coefficient of relative risk aversion
     gamma and computes the marginal utility of that consumption using
-    the expression in equation ().
+    the expression in equation (9).
     '''
     # Put code here.
 

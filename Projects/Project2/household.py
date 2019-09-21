@@ -48,5 +48,11 @@ def get_MUc(c, gamma):
     the expression in equation (9).
     '''
     # Put code here.
+    if c <= 0:
+        raise Exception
+    if gamma <= 0:
+        raise Exception
+        
+    MUc = c**(-gamma)
 
     return MUc

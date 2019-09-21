@@ -4,11 +4,6 @@ the household consumptions c1 and c2 as well as the marginal utility of
 consumption in the two-period-lived overlapping generations model.
 '''
 
-# Put import commands below here
-
-
-# Fill in the functions below
-
 
 def get_c1(b2, args):
     '''
@@ -40,7 +35,10 @@ def get_c2(b2, args):
     all the arguments necessary in equation (27) as well as whatever
     arguments are necessary in FirmsMC.get_r() and FirmsMC.get_w().
     '''
+    # unpack arguments
     nvec, alpha, A, delta = args
+
+    # specify c2
     c2 = (1+ FirmsMC.get_r(b2, (nvec, alpha, A)))*b2 + FirmMC.get_w(b2, (nvec, alpha, A, delta))*nvec[1]
 
     return c2
@@ -53,7 +51,6 @@ def get_MUc(c, gamma):
     gamma and computes the marginal utility of that consumption using
     the expression in equation (9).
     '''
-
     # error if inputs take disallowed values
     if c <= 0:
         raise Exception

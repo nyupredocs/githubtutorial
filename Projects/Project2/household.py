@@ -19,7 +19,7 @@ def get_c1(b2, args):
 
     # get w, n
     w = FirmsMC.get_w(b2, args=(nvec, alpha, A))
-    n = nvec[0]
+    n1 = nvec[0]
 
     # specify c1
     c1 = w * n1 - b2

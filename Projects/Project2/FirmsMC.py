@@ -6,7 +6,7 @@ b_2 in the two-period-lived overlapping generations model.
 '''
 
 # Put import commands below here
-
+import numpy as np
 
 # Fill in the functions below
 
@@ -17,7 +17,7 @@ def get_K(b2):
     market clearing condition for the capital market (25) to return
     aggregate capital K as a function of savings b2.
     '''
-    # Put code here.
+    K = b2
 
     return K
 
@@ -29,7 +29,7 @@ def get_L(nvec):
     return aggregate labor L as a function of nvec, which is a numpy
     array (1-dimensional vector) with two elements n1 and n2
     '''
-    # Put code here.
+    L= np.sum(nvec)
 
     return L
 
@@ -42,7 +42,11 @@ def get_r(b2, args):
     delta. Also, make sure to call your get_K() and get_L() functions
     inside of this function.
     '''
-    # Put code here.
+    
+    nvec, alpha, A, delta = args
+    K = get_K(b2)
+    L = get_L(nvec)
+    r = alpha * A * (K / L) ** (1 - alpha)  - delta
 
     return r
 

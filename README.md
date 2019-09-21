@@ -6,4 +6,6 @@ Project 1 has students evaluate GitHub repositories.
 ~modification~
 
 ## References
-Put references here. No. Not going to happen.
+Put references here... or not.
+
+Merge conflict here haha!

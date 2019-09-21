@@ -8,6 +8,9 @@ b_2 in the two-period-lived overlapping generations model.
 # Put import commands below here
 
 
+# Fill in the functions below
+
+
 def get_K(b2):
     '''
     This will be a pretty simple function. Use steady-state equilibrium
@@ -34,10 +37,10 @@ def get_L(nvec):
 def get_r(b2, args):
     '''
     This function computes the steady-state interest rate as a function
-    of savings b2 using steady-state equilibrium equation (26). The args
-    input will have to include nvec, alpha, A, and delta. Also, make
-    sure to call your get_K() and get_L() functions inside of this
-    function.
+    of savings b2 using steady-state equilibrium equation (28). The args
+    input will have to be a tuple that includes nvec, alpha, A, and
+    delta. Also, make sure to call your get_K() and get_L() functions
+    inside of this function.
     '''
     # Put code here.
 
@@ -47,9 +50,10 @@ def get_r(b2, args):
 def get_w(b2, args):
     '''
     This function computes the steady-state wage as a function of
-    savings b2 using steady-state equilibrium equation (27). The args
-    input will have to include nvec, alpha, and A. Also, make sure to
-    call your get_K() and get_L() functions inside of this function.
+    savings b2 using steady-state equilibrium equation (29). The args
+    input will have to be a tuple that includes nvec, alpha, and A.
+    Also, make sure to call your get_K() and get_L() functions inside of
+    this function.
     '''
     # Put code here.
 

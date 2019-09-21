@@ -59,6 +59,10 @@ def get_w(b2, args):
     Also, make sure to call your get_K() and get_L() functions inside of
     this function.
     '''
-    # Put code here.
+    
+    nvec, alpha, A = args
+    K = get_K(b2)
+    L = get_L(nvec)
+    w = (1 - alpha) * A * (K / L) ** alpha
 
     return w

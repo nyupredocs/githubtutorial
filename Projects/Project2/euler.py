@@ -28,7 +28,7 @@ def eul_err(b2, *args):
 
     #Calculate LHS of equation #30
     c1 = household.get_c1(b2, args)
-    
+
     MUc1 = household.get_MUc(c1, gamma)
 
     LHS = hh.get_MUc(c1, gamma)
@@ -48,7 +48,7 @@ def eul_err(b2, *args):
 
 
     #Calculate using LHS and RHS
-    error = LHS - RHS
+    error = abs(LHS - RHS)
 
 
 

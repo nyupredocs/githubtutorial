@@ -19,8 +19,10 @@ def get_c1(b2, args):
     necessary in equation (26) as well as whatever arguments are
     necessary in FirmsMC.get_w().
     '''
+    # unpack arguments
     nvec, alpha, A, n1 = args
 
+    # get w
     w = FirmsMC.get_w(b2, args=(nvec, alpha, A))
 
     # specify c1

@@ -12,7 +12,7 @@ import scipy.optimize as opt
 # Fill in the functions below
 
 
-def eul_err(b2, *args):
+def eul_err(b2, args):
     '''
     This function computes the Euler error (simple difference) implied
     by the steady-state equilibrium Euler equation (30). This function
@@ -23,7 +23,7 @@ def eul_err(b2, *args):
     the error form of (30).
     '''
 
-
+    gamma = args[5]
 
 
     #Calculate LHS of equation #30

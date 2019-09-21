@@ -3,7 +3,10 @@ Tutorial on how to use Git and GitHub an a scalable collaborative workflow and a
 
 Project 1 has students evaluate GitHub repositories.
 
-Project 2: General Equilibrium collaboration.
+Project 2 has students working on General Equilibriums problem.
+
+Project 3 will be fun!
+
 
 ## References
 Put references here.

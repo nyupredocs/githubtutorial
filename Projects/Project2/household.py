@@ -57,6 +57,11 @@ def get_MUc(c, gamma):
     gamma and computes the marginal utility of that consumption using
     the expression in equation (9).
     '''
+    # error if inputs take disallowed values
+    if c <= 0:
+        raise Exception
+    if gamma <= 0:
+        raise Exception
 
     # specify marginal utility
     MUc = c**(-gamma)

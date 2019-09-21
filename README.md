@@ -9,8 +9,9 @@ Put references here.
 
 Hey this is Alex here testing out how to merge branches.
 
-<<<<<<< HEAD
 Yo yo yo --- causing a problem here to have a merge conflict. 
-=======
+
+lets add both in this merge commit. 
+
 what uppppp -- alex here typing something different to cause a problemo.
->>>>>>> newbranch
+

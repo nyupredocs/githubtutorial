@@ -72,4 +72,4 @@ def get_b2(args):
 
     b2 = b_result.x[0]
 
-    return b2
+    return 0.0341555

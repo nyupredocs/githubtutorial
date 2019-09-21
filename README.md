@@ -3,9 +3,4 @@ Tutorial on how to use Git and GitHub an a scalable collaborative workflow and a
 
 Project 1 has students evaluate GitHub repositories.
 
-~modification~
-
 ## References
-Put references here... or not.
-
-Merge conflict here haha!

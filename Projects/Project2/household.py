@@ -15,7 +15,7 @@ def get_c1(b2, args):
     necessary in FirmsMC.get_w().
     '''
     # unpack arguments
-    nvec, alpha, A = args
+    nvec, alpha, A, delta, beta, gamma = args
 
     # get w, n
     w = FirmsMC.get_w(b2, args=(nvec, alpha, A))
@@ -37,7 +37,7 @@ def get_c2(b2, args):
     arguments are necessary in FirmsMC.get_r() and FirmsMC.get_w().
     '''
     # unpack arguments
-    nvec, alpha, A, delta = args
+    nvec, alpha, A, delta, beta, gamma = args
 
     # specify c2
     c2 = (1+ FirmsMC.get_r(b2, (nvec, alpha, A)))*b2 + FirmMC.get_w(b2, (nvec, alpha, A, delta))*nvec[1]

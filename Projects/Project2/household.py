@@ -15,10 +15,11 @@ def get_c1(b2, args):
     necessary in FirmsMC.get_w().
     '''
     # unpack arguments
-    nvec, alpha, A, n1 = args
+    nvec, alpha, A = args
 
-    # get w
+    # get w, n
     w = FirmsMC.get_w(b2, args=(nvec, alpha, A))
+    n = nvec[0]
 
     # specify c1
     c1 = w * n1 - b2

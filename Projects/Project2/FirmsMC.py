@@ -46,7 +46,7 @@ def get_r(b2, args):
     nvec, alpha, A, delta = args
     K = get_K(b2)
     L = get_L(nvec)
-    r = alpha * A * (K / L) ** (1 - alpha)  - delta
+    r = alpha * A * (L / K) ** (1 - alpha)  - delta
 
     return r
 

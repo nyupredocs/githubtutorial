@@ -39,8 +39,12 @@ def get_c2(b2, args):
     # unpack arguments
     nvec, alpha, A, delta = args
 
+    r = FirmsMC.get_r(b2, (nvec, alpha, A))
+    w = FirmMC.get_w(b2, (nvec, alpha, A, delta))
+    n2 = nvec[1]
+
     # specify c2
-    c2 = (1+ FirmsMC.get_r(b2, (nvec, alpha, A)))*b2 + FirmMC.get_w(b2, (nvec, alpha, A, delta))*nvec[1]
+    c2 = (1+r)*b2 + w*n2
 
     return c2
 

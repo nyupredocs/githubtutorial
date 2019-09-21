@@ -5,5 +5,7 @@ merge conflict here pls
 
 Project 1 has students evaluate GitHub repositories.
 
+Project 2: General Equilibrium collaboration.
+
 ## References
 Put references here.

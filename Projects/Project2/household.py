@@ -19,7 +19,9 @@ def get_c1(b2, args):
     necessary in equation (26) as well as whatever arguments are
     necessary in FirmsMC.get_w().
     '''
-    # Put code here.
+    n1 = args
+    w = FirmsMC.get_w(b2, args=args)
+    c1 = w * n1 - b2
 
     return c1
 
@@ -46,5 +48,11 @@ def get_MUc(c, gamma):
     the expression in equation (9).
     '''
     # Put code here.
+    if c <= 0:
+        raise Exception
+    if gamma <= 0:
+        raise Exception
+        
+    MUc = c**(-gamma)
 
     return MUc

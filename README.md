@@ -4,5 +4,6 @@ merge conflict here pls
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nyupredocs/githubtutorial/master)
 
 Project 1 has students evaluate GitHub repositories.
+
 ## References
 Put references here.

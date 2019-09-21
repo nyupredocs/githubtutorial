@@ -40,7 +40,8 @@ def get_c2(b2, args):
     all the arguments necessary in equation (27) as well as whatever
     arguments are necessary in FirmsMC.get_r() and FirmsMC.get_w().
     '''
-    # Put code here.
+    nvec, alpha, A, delta = args
+    c2 = (1+ FirmsMC.get_r(b2, (nvec, alpha, A)))*b2 + FirmMC.get_w(b2, (nvec, alpha, A, delta))*nvec[1]
 
     return c2
 

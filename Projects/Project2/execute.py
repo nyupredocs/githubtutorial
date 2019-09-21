@@ -17,11 +17,12 @@ n1 = 1.0
 n2 = 0.2
 nvec = np.array([n1, n2])
 gamma = 2.2
-beta = 0.96
+beta_an = 0.96
+beta = beta_an ** 30
 
 # Firm parameters
 A = 1.0
-alpha = 0.33
+alpha = 0.35
 delta_an = 0.05
 delta = 1 - (1 - delta_an) ** (30)
 

@@ -19,8 +19,11 @@ def get_c1(b2, args):
     necessary in equation (26) as well as whatever arguments are
     necessary in FirmsMC.get_w().
     '''
-    n1 = args
-    w = FirmsMC.get_w(b2, args=args)
+    nvec, alpha, A, n1 = args
+
+    w = FirmsMC.get_w(b2, args=(nvec, alpha, A))
+
+    # specify c1
     c1 = w * n1 - b2
 
     return c1

@@ -51,6 +51,6 @@ def get_MUc(c, gamma):
     if gamma <= 0:
         raise Exception
         
-    MUc = c^(-gamma)
+    MUc = c**(-gamma)
 
     return MUc

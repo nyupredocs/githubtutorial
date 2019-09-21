@@ -48,7 +48,7 @@ def eul_err(b2, *args):
 
 
     #Calculate using LHS and RHS
-    error = abs(LHS - RHS)
+    error = LHS - RHS
 
 
 

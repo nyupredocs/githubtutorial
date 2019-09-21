@@ -3,7 +3,6 @@ Tutorial on how to use Git and GitHub an a scalable collaborative workflow and a
 
 Project 1 has students evaluate GitHub repositories.
 
-Artificial merge conflict
 
 ## References
 Put references here.

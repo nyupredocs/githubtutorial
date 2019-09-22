@@ -6,6 +6,7 @@ consumption in the two-period-lived overlapping generations model.
 
 import FirmsMC
 
+
 def get_c1(b2, args):
     '''
     Use steady-state equilibrium young age s=1 budget constraint (26) to
@@ -45,7 +46,7 @@ def get_c2(b2, args):
     n2 = nvec[1]
 
     # specify c2
-    c2 = (1+r)*b2 + w*n2
+    c2 = (1 + r) * b2 + w * n2
 
     return c2
 
@@ -64,6 +65,6 @@ def get_MUc(c, gamma):
         raise Exception
 
     # specify marginal utility
-    MUc = c**(-gamma)
+    MUc = c ** (-gamma)
 
     return MUc

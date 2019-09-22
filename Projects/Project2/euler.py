@@ -5,8 +5,8 @@ savings in the two-period-lived overlapping generations model.
 '''
 
 # Put import commands below here
-import FirmsMC
-import household
+import FirmsMC as fmc
+import household as hh
 
 import scipy.optimize as opt
 # Fill in the functions below
@@ -25,36 +25,26 @@ def eul_err(b2, *args):
 
     gamma = args[5]
 
+    # Calculate LHS of equation #30
+    c1 = hh.get_c1(b2, args)
 
-    #Calculate LHS of equation #30
-    c1 = household.get_c1(b2, args)
+    LHS = hh.get_MUc(c1, gamma)
 
-    MUc1 = household.get_MUc(c1, gamma)
-
-    LHS = household.get_MUc(c1, gamma)
-
-
-
-    #Calculate RHS of equation #30
+    # Calculate RHS of equation #30
     beta = args[4]
 
-    r = FirmsMC.get_r(b2, args)
+    r = fmc.get_r(b2, args)
 
-    c2 = household.get_c2(b2, args)
+    c2 = hh.get_c2(b2, args)
 
-    MUc2 = household.get_MUc(c2, gamma)
+    MUc2 = hh.get_MUc(c2, gamma)
 
-    RHS =  beta * (1 + r) * MUc2
+    RHS = beta * (1 + r) * MUc2
 
-
-    #Calculate using LHS and RHS
+    # Calculate using LHS and RHS
     error = LHS - RHS
 
-
-
     return error
-
-
 
 
 def get_b2(args):

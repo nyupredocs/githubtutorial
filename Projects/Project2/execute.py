@@ -41,7 +41,7 @@ c2 = household.get_c2(b2, args)
 r = FirmsMC.get_r(b2, args)
 w = FirmsMC.get_w(b2, args)
 k = FirmsMC.get_K(b2)
-l = FirmsMC.get_L(nvec)
+L = FirmsMC.get_L(nvec)
 c = c1 + c2
 i = k - (1 - delta) * k
 y = c + i
@@ -53,7 +53,7 @@ print("C2: " + str(c2))
 print("R: " + str(r))
 print("W: " + str(w))
 print("K: " + str(k))
-print("L: " + str(l))
+print("L: " + str(L))
 print("C: " + str(c))
 print("I: " + str(i))
 print("Y: " + str(y))

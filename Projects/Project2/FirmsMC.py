@@ -14,7 +14,7 @@ def get_K(b2):
     This will be a pretty simple function. Use steady-state equilibrium
     market clearing condition for the capital market (25) to return
     aggregate capital K as a function of savings b2.
-    
+
     Parameters
     ----------
     b2 : numeric
@@ -29,12 +29,13 @@ def get_K(b2):
 
     return K
 
+
 def get_L(nvec):
     '''
     This function will also be a simple function. Use steady-state
     equilibrium market clearing condition for the labor market (24) to
     return aggregate labor L as a function of nvec.
-    
+
     Parameters
     ----------
     nvec : np.array
@@ -45,15 +46,16 @@ def get_L(nvec):
     L : numeric
         returns value for L
     '''
-    L= np.sum(nvec)
+    L = np.sum(nvec)
 
     return L
+
 
 def get_r(b2, args):
     '''
     This function computes the steady-state interest rate as a function
-    of savings b2 using steady-state equilibrium equation (28). 
-    
+    of savings b2 using steady-state equilibrium equation (28).
+
     Parameters
     ----------
     b2 : numeric
@@ -69,19 +71,20 @@ def get_r(b2, args):
     r : numeric
         returns value for r
     '''
-    
+
     nvec, alpha, A, delta, beta, gamma = args
     K = get_K(b2)
     L = get_L(nvec)
-    r = alpha * A * (L / K) ** (1 - alpha)  - delta
+    r = alpha * A * (L / K) ** (1 - alpha) - delta
 
     return r
+
 
 def get_w(b2, args):
     '''
     This function computes the steady-state wage as a function of
     savings b2 using steady-state equilibrium equation (29).
-    
+
     Parameters
     ----------
     b2 : numeric
@@ -96,7 +99,7 @@ def get_w(b2, args):
     w : numeric
         returns value for w
     '''
-    
+
     nvec, alpha, A, delta, beta, gamma = args
     K = get_K(b2)
     L = get_L(nvec)

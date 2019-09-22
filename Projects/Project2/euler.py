@@ -31,7 +31,7 @@ def eul_err(b2, *args):
 
     MUc1 = household.get_MUc(c1, gamma)
 
-    LHS = hh.get_MUc(c1, gamma)
+    LHS = household.get_MUc(c1, gamma)
 
 
 
@@ -67,7 +67,7 @@ def get_b2(args):
     above
     '''
     # Put code here.
-    b_init = 2.0
+    b_init = 0.1
     b_result = opt.root(eul_err, b_init, args=args)
 
     b2 = b_result.x[0]

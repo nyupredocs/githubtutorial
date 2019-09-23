@@ -4,6 +4,8 @@
 MANIFEST
 build/*
 dist/*
+_configtest.o.d
+*~
 
 # LaTeX utility files
 *.aux
@@ -32,11 +34,15 @@ dist/*
 # Sublime text files
 *.sublime*
 
+# Visual Studio Code files
+.vscode/*
+
 # Mac utility files
 .DS_Store
 
 # Jupyter notebook utility files
 *.ipynb_checkpoints*
+*.nbconvert.ipynb
 
 # Other files that I don't remember why we have
 *.cache*

@@ -11,13 +11,7 @@ This `README.md` serves as a syllabus, outline, and reference for the training. 
 3. [Instructions for installing the Anaconda distribution of Python](#3-instructions-for-installing-the-anaconda-distribution-of-python)
 4. [Text editor suggestions](#4-text-editor-suggestions)
 5. [PEP 8, docstring commenting, and module structure](#5-pep-8-docstring-commenting-and-module-structure)
-
-7. [Git and GitHub.com tutorial](#7-git-and-gitHub-tutorial)
-8. [Jupyter notebooks](#8-jupyter-notebooks)
-9. [Python tutorials](#9-python-tutorials)
-10. [Other Books](#10-other-books)
-11. [C++ tutorials](#11-c-tutorials)
-12. [References](#12-references)
+6. [References](#6-references)
 
 
 ## 1. Schedule
@@ -49,11 +43,11 @@ This `README.md` serves as a syllabus, outline, and reference for the training. 
 
 | Time | Topic | Materials |
 |:----:|:----- |:--------- |
-9:00a-12:00p | Git, GitHub, Python setup | [Day 1 Slides](https://github.com/nyupredocs/githubtutorial/blob/master/Slides/GitGitHub_d1.pdf) |
-|            | Openness and collaboration in Econ |  |
-|            | Git and GitHub basics              |  |
+9:00a-12:00p | Code cleanliness, documentation | [Day 3 Slides](https://github.com/nyupredocs/githubtutorial/blob/master/Slides/GitGitHub_d3.pdf) |
+|            | Tools for extending open models |  |
+|            | [ParamTools](https://github.com/PSLmodels/ParamTools) and [compute.studio](https://compute.studio) |  |
 12:00-1:00p  | Lunch |  |
-1:00-5:00p   | Evaluating GitHub repositories | [Project 1](https://github.com/nyupredocs/githubtutorial/blob/master/Projects/Project1.md) |
+1:00-3:00p   | PEP8, Docstrings, and [Sphinx](http://www.sphinx-doc.org/en/master/) | [Project 3](https://github.com/nyupredocs/githubtutorial/blob/master/Projects/Project3.md) |
 
 
 ## 2. Git and GitHub Setup
@@ -66,14 +60,21 @@ git --version
 ```
 You can install or `Git` by following the appropriate operating system instructions on the [`Git` download page](https://git-scm.com/downloads).
 
-Some nice Git and GitHub tutorial matierial is available from the following resources.
-
-* Evans (2019) [Git and GitHub tutorial chapter]()
-
 
 ### 2.2. Sign up for a GitHub account
 
 You should sign up for a GitHub account by going to [https://github.com/join](https://github.com/join). Choose a `username` that is not too long but that represents you. Be careful on what username you choose. That will be your GitHub handle and will be the main name by which you will be recognized in your interactions on GitHub. And the goal is for you to have many productive interactions on GitHub. My advice is to choose a username that is not "too" silly and not "too" cute.
+
+
+### 2.3. Git and GitHub readings and tutorial resources
+
+Some nice Git and GitHub tutorial matierial is available from the following resources.
+
+* Evans (2019) [Git and GitHub tutorial chapter](https://github.com/nyupredocs/githubtutorial/blob/master/Tutorials/git_tutorial.pdf)
+* Chacon and Straub (2014), [*Pro Git*](https://git-scm.com/book/en/v2) [Fittingly, this book is available open access online at the this link.]
+* Sood, Arnav (2019) “[Git, GitHub, and Version Control](https://lectures.quantecon.org/jl/version_control.html)" QuantEcon lecture
+* [Atlassian Git tutorial](https://www.atlassian.com/git/tutorials). This is a good Git tutorial for interaction with Atlassian's Bitbucket platform, a GitHub competitor.
+[Atlassiang git merge conflict tutorial](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts)
 
 
 ## 3. Instructions for installing the Anaconda distribution of Python
@@ -81,6 +82,25 @@ You should sign up for a GitHub account by going to [https://github.com/join](ht
 We will be using the [Python](https://www.python.org/) programming language and many of its powerful libraries for writing the code that will run most of the computational methods we will use during the Boot Camp. Using an open source language, such as Python, has the advantage of being free and accessible for anyone who wishes to learn these materials or contribute to these projects. Being open source also allows Python users to go into the source code of any function to modify it to suit one's needs.
 
 We recommend that each participant download the Anaconda distribution of Python provided by [Anaconda, Inc.](https://www.anaconda.com/distribution/). We recommend the most recent stable version of Python, which is currently Python 3.7. This can be done from the [Anaconda download page](https://www.anaconda.com/distribution/) for Windows, Mac OSX, and Linux machines.
+
+
+### Python tutorial materials
+
+For this training, we have included in this repository six basic Python tutorials in the [`Tutorials`](Tutorials) directory.
+
+1. [PythonReadIn.ipynb](Tutorials/PythonReadIn.ipynb). This Jupyter notebook provides instruction on basic Python I/O, reading data into Python, and saving data to disk.
+2. [PythonNumpyPandas.ipynb](Tutorials/PythonNumpyPandas.ipynb). This Jupyter notebook provides instruction on working with data using `NumPy` as well as Python's powerful data library `pandas`.
+3. [PythonDescribe.ipynb](Tutorials/PythonDescribe.ipynb). This Jupyter notebook provides instruction on describing, slicing, and manipulating data in Python.
+4. [PythonFuncs.ipynb](Tutorials/PythonFuncs.ipynb). This Jupyter notebook provides instruction on working with and writing Python functions.
+5. [PythonVisualize.ipynb](Tutorials/PythonVisualize.ipynb). This Jupyter notebook provides instruction on creating visualizations in Python.
+6. [PythonRootMin.ipynb](Tutorials/PythonRootMin.ipynb). This Jupyter notebook provides instruction on implementing univariate and multivariate root finders and unconstrained and constrained minimizers using functions in the [`scipy.optimize`](https://docs.scipy.org/doc/scipy/reference/optimize.html) sub-library.
+
+To further one's Python programming skills, a number of other great resources exist.
+
+* The [official Python 3 tutorial site](https://docs.python.org/3/tutorial/)
+* [QuantEcon.net](https://lectures.quantecon.org/py/) is a site run by [Thomas Sargent](http://www.tomsargent.com/) (NYU Stern) and [John Stachurski](http://johnstachurski.net/) (Australia National University). QuantEcon has a very large number of high-quality economics focused computational tutorials in Python. The first three sections provide a good introduction to Python programming.
+* [Python computational labs](https://acme.byu.edu/2019-2020-materials/) of the Applied and Computational Mathematics Emphasis at Brigham Young University.
+* [Code Academy's Python learning module](https://www.codecademy.com/learn/learn-python)
 
 
 ## 4. Text editor suggestions
@@ -164,5 +184,14 @@ There are fewer conventions in docstring structure, but we have developed some o
 
 
 ## 6. References and Resources
-* Evans, Richard W., "Using Git and GitHub," unpublished manuscript (September 2019).
-*
+
+
+### References
+* Chacon, Scott and Ben Straub, [*Pro Git: Everything You Need to Know About Git*](https://git-scm.com/book/en/v2.), 2nd Edition, Apress (2014).
+* Evans, Richard W., "[Using Git and GitHub](https://github.com/nyupredocs/githubtutorial/blob/master/Tutorials/git_tutorial.pdf)," unpublished manuscript (September 2019).
+* Sood, Arnav, “[Git, GitHub, and Version Control](https://lectures.quantecon.org/jl/version_control.html),” QuantEcon Open Access Lecture (downloaded August 28, 2019).
+
+
+### Resources
+* [Atlassian Git tutorial](https://www.atlassian.com/git/tutorials)
+* [Atlassiang git merge conflict tutorial](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts)

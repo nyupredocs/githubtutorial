@@ -6,18 +6,18 @@ This is the repository for the Git and GitHub scalable collaborative workflow an
 
 This `README.md` serves as a syllabus, outline, and reference for the training. This document has ? sections.
 
-1. [Schedule](#1-ose-lab-leadership)
-<!-- 2. [Boot Camp schedule](#2-boot-camp-schedule)
+1. [Schedule](#1-schedule)
+2. [Git and GitHub Setup](#2-git-and-github-setup)
 3. [Instructions for installing the Anaconda distribution of Python](#3-instructions-for-installing-the-anaconda-distribution-of-python)
 4. [Text editor suggestions](#4-text-editor-suggestions)
 5. [PEP 8, docstring commenting, and module structure](#5-pep-8-docstring-commenting-and-module-structure)
-6. [Using LaTeX](#6-using-latex)
+
 7. [Git and GitHub.com tutorial](#7-git-and-gitHub-tutorial)
 8. [Jupyter notebooks](#8-jupyter-notebooks)
 9. [Python tutorials](#9-python-tutorials)
 10. [Other Books](#10-other-books)
 11. [C++ tutorials](#11-c-tutorials)
-12. [References](#12-references) -->
+12. [References](#12-references)
 
 
 ## 1. Schedule
@@ -28,8 +28,8 @@ This `README.md` serves as a syllabus, outline, and reference for the training. 
 | Time | Topic | Materials |
 |:----:|:----- |:--------- |
 9:00a-12:00p | Git, GitHub, Python setup | [Day 1 Slides](https://github.com/nyupredocs/githubtutorial/blob/master/Slides/GitGitHub_d1.pdf) |
-             | Openness and collaboration in Econ |  |
-             | Git and GitHub basics              |  |
+|            | Openness and collaboration in Econ |  |
+|            | Git and GitHub basics              |  |
 12:00-1:00p  | Lunch |  |
 1:00-5:00p   | Evaluating GitHub repositories | [Project 1](https://github.com/nyupredocs/githubtutorial/blob/master/Projects/Project1.md) |
 
@@ -39,10 +39,10 @@ This `README.md` serves as a syllabus, outline, and reference for the training. 
 | Time | Topic | Materials |
 |:----:|:----- |:--------- |
 9:00a-12:00p | git merge and merge conflicts | [Day 2 Slides](https://github.com/nyupredocs/githubtutorial/blob/master/Slides/GitGitHub_d2.pdf) |
-             | Data best practices |  |
+|            | Data best practices |  |
 12:00-1:00p  | Lunch |  |
 1:00-5:00p   | Collaborative economic modeling project | [Project 2](https://github.com/nyupredocs/githubtutorial/blob/master/Projects/Project2/OG2per.pdf) |
-             |  | Exercises 1, 2, 3, 4 |
+|            |  | Exercises 1, 2, 3, 4 |
 
 
 ### 1.3. Sunday, September 22
@@ -50,8 +50,8 @@ This `README.md` serves as a syllabus, outline, and reference for the training. 
 | Time | Topic | Materials |
 |:----:|:----- |:--------- |
 9:00a-12:00p | Git, GitHub, Python setup | [Day 1 Slides](https://github.com/nyupredocs/githubtutorial/blob/master/Slides/GitGitHub_d1.pdf) |
-             | Openness and collaboration in Econ |  |
-             | Git and GitHub basics              |  |
+|            | Openness and collaboration in Econ |  |
+|            | Git and GitHub basics              |  |
 12:00-1:00p  | Lunch |  |
 1:00-5:00p   | Evaluating GitHub repositories | [Project 1](https://github.com/nyupredocs/githubtutorial/blob/master/Projects/Project1.md) |
 

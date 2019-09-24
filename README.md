@@ -23,7 +23,7 @@ This `README.md` serves as a syllabus, outline, and reference for the training. 
 ## 1. Schedule
 
 
-### 1.1. Friday, September 20
+### Friday, September 20
 
 | Time | Topic | Materials |
 |:----:|:----- |:--------- |
@@ -34,7 +34,7 @@ This `README.md` serves as a syllabus, outline, and reference for the training. 
 1:00-5:00p   | Evaluating GitHub repositories | [Project 1](https://github.com/nyupredocs/githubtutorial/blob/master/Projects/Project1.md) |
 
 
-### 1.2. Saturday, September 21
+### Saturday, September 21
 
 | Time | Topic | Materials |
 |:----:|:----- |:--------- |
@@ -45,7 +45,7 @@ This `README.md` serves as a syllabus, outline, and reference for the training. 
 |            |  | Exercises 1, 2, 3, 4 |
 
 
-### 1.3. Sunday, September 22
+### Sunday, September 22
 
 | Time | Topic | Materials |
 |:----:|:----- |:--------- |
@@ -65,6 +65,10 @@ This `README.md` serves as a syllabus, outline, and reference for the training. 
 git --version
 ```
 You can install or `Git` by following the appropriate operating system instructions on the [`Git` download page](https://git-scm.com/downloads).
+
+Some nice Git and GitHub tutorial matierial is available from the following resources.
+
+* Evans (2019) [Git and GitHub tutorial chapter]()
 
 
 ### 2.2. Sign up for a GitHub account
@@ -158,15 +162,7 @@ In the text editors Atom, Sublime Text 3, and Vim, you can install Linter packag
 
 There are fewer conventions in docstring structure, but we have developed some of our own that are outlined in the [PythonFuncs.ipynb](https://github.com/OpenSourceMacro/BootCamp2019/blob/master/Tutorials/PythonFuncs.ipynb) Jupyter notebook. See especially Sections 3 and 4 of the Jupyter notebook.
 
-Project 1 has students evaluate GitHub repositories.
 
-HEAD
-Project 2 has students working on General Equilibriums problem.
-
-Project 3 will be fun!
-
-=======
-Project 2: General Equilibrium collaboration.
-
-## References
-Put references here... or not.
+## 6. References and Resources
+* Evans, Richard W., "Using Git and GitHub," unpublished manuscript (September 2019).
+*

@@ -9,9 +9,10 @@ This `README.md` serves as a syllabus, outline, and reference for the training. 
 1. [Schedule](#1-schedule)
 2. [Git and GitHub Setup](#2-git-and-github-setup)
 3. [Instructions for installing the Anaconda distribution of Python](#3-instructions-for-installing-the-anaconda-distribution-of-python)
-4. [Text editor suggestions](#4-text-editor-suggestions)
-5. [PEP 8, docstring commenting, and module structure](#5-pep-8-docstring-commenting-and-module-structure)
-6. [References](#6-references)
+4. [Jupyter Notebooks](#4-jupyter-notebooks)
+5. [Text editor suggestions](#5-text-editor-suggestions)
+6. [PEP 8, docstring commenting, and module structure](#6-pep-8-docstring-commenting-and-module-structure)
+7. [References and Resources](#7-references-and-resources)
 
 
 ## 1. Schedule
